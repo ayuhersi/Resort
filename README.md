@@ -2,7 +2,7 @@
 #### {Resort Hotel}, {12/2/21}
 #### By **{Happiness, Manu, Samuel, Iciee and Ayub}**
 ## Description
-{This is an online website for Mercada Resort Located in Mombasa,Kenya. Users will be able to log in and book a room} 
+{This is an online website for Mercada Resort Located in Mombasa,Kenya. Users will be able to log in and book a hotel room} 
 ## Setup/Installation Requirements
 * Clone the repo {https://github.com/ayuhersi/Resort.git }
 cd MercadoResort/ packagemanager install

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking.css" type="text/css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="booking.js"></script>
+    <title>Resort Bookings</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Resort Bookings</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your FIrst Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name</span>
+                    <input type="text" placeholder="Enter your Last Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter your Phone Number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email Address</span>
+                    <input type="text" placeholder="Enter your Email Address" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Number of Days</span>
+                    <input type="text" id="number" placeholder="Enter Number of Days" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Number of Guests</span>
+                    <input type="text" id="guests" placeholder="Enter Number of Guests" required>
+                </div>
+            </div>
+            <div class="room-details">
+                <span class="room-title">Room Type</span>
+                <div class="category">
+                    <label for="single">Single Room</label>
+                    <input class="form-check-input" id="single" name="roomType" type="radio" value="single">
+
+                    <label for="double">Double Room</label>
+                    <input class="form-check-input" id="double" name="roomType" type="radio" value="double">
+
+                    <label for="master">Master Room</label>
+                    <input class="form-check-input" id="master" name="roomType" type="radio" value="master">
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" onclick="bookNow()" value="Book Now">
+            </div>
+        </form>
+    </div>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>

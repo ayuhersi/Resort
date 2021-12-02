@@ -5,9 +5,9 @@
 {This is an online website for Mercada Resort Located in Mombasa,Kenya. Users will be able to log in and book a hotel room} 
 ## Setup/Installation Requirements
 * Clone the repo {https://github.com/ayuhersi/Resort.git }
-cd MercadoResort/ packagemanager install
-./configure make install
-packagemanager deploy your-project -s server.com -u username -p password
+*cd MercadoResort/ packagemanager install
+*./configure make install
+*packagemanager deploy your-project -s server.com -u username -p password
 
 ## Live link
 https://ayuhersi.github.io/Resort/index.html

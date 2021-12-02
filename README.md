@@ -12,9 +12,9 @@
 ## Live link
 https://ayuhersi.github.io/Resort/index.html
 ## Known Bugs
-Nav bar doesn't work for about us and contact me 
+Navbar doesn't work for "about us" and "contact me".  
 ## Technologies Used
-HTML CSS KS JQUERY Bootstrap
+HTML CSS JS JQUERY Bootstrap
 ## Support and contact details
 If you run into any issues contact my email address ayub7hersi@gmail.com 
 ### License
